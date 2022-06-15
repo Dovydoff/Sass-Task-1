@@ -2,6 +2,10 @@
     box-sizing: border-box;
   }
 
+  $primary: #73829e;
+  $secondary: grey;
+
+
 body {
     font-family: 'Macondo';
     background-color: rgb(209, 208, 208);
@@ -49,28 +53,28 @@ padding-right: 1rem;
     border: solid #303ca5 3px;
     border-radius: 5px;
     background-color: white;
-    color: #73829e;
+    color: $primary;
     
 
 }
 .description-2, .description-3, .description-4 {
     font-size: 1rem;
-padding-left: 1rem;
-padding-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .grey {
     font-size: large;
-    color: grey;
+    color: $secondary;
     margin-top: 5px;
 }
 .includes {
     font-size: large;
-    color: grey;
+    color: $secondary;
     margin-top: 3rem;
 }
 .includes2 {
     font-size: large;
-    color: grey;
+    color: $secondary;
     margin-top: 0;
 }
 .list {
